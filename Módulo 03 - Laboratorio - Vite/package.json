@@ -1,0 +1,24 @@
+{
+  "description": "",
+  "scripts": {
+    "start": "vite --host",
+    "type-check": "tsc --noEmit",
+    "prebuild": "npm run type-check",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-legacy": "^5.4.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "sass": "^1.78.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3",
+    "vite-plugin-checker": "^0.8.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
